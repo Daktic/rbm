@@ -11,7 +11,7 @@ contract MyToken is ERC721, ERC721URIStorage, ERC721Burnable, Ownable {
     uint256 private _nextTokenId;
 
     constructor(address initialOwner)
-    ERC721("MyToken", "MTK")
+    ERC721("MortgageContract", "MC")
     Ownable(initialOwner)
     {}
 
